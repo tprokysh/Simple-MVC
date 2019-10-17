@@ -1,1 +1,1 @@
-php-blog
+Simple MVC
