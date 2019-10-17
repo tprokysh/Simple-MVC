@@ -1,0 +1,222 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.post {
+    border: 3px solid cadetblue;
+    width: 50%;
+    height: 100%;
+    margin-bottom: 4px;
+    border-radius: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 14px;
+    white-space: normal
+}
+
+.post h2, .reg h1, .login h3, .login h1, .profile h1 {
+    text-align: center;
+}
+
+.content {
+    word-wrap:break-word;
+}
+
+.post a {
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+.del a, .edit a {
+    color: black;
+    font-weight: bold;
+}
+
+.del {
+    border: 1px solid black;
+    border-radius: 5px;
+    display: inline-block;
+    float: right;
+    padding: 4px;
+    margin: 2px;
+    background-color: red;
+    min-width: 46px;
+}
+
+.edit {
+    border: 1px solid black;
+    border-radius: 5px;
+    display: inline-block;
+    float: left;
+    padding: 4px;
+    margin: 2px;
+    background-color: yellow;
+    min-width: 45px;
+    text-align: center;
+}
+
+.reg,
+.login,
+.add{
+    border: 3px solid black;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    padding: 5px 10px 10px;
+    max-width: 278px;
+}
+
+.add {
+    max-width: 420px;
+}
+
+.reg input,
+.login input,
+.toReg{
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.reg input[type="text"],
+.reg input[type="password"],
+.login input,
+.add input[type="text"],
+.add textarea{
+    text-align: center;
+    width: 98%;
+    border-radius: 12px;
+    border: 2px solid gray;
+}
+
+.add input[type="text"],
+.add textarea {
+    text-align: left;
+}
+
+.reg input[type="submit"],
+.login input[type="submit"],
+.add input[type="submit"]{
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding-right: 1px;
+    border-radius: 12px;
+}
+
+.add input[type="submit"] {
+}
+
+.add textarea {
+    resize: none;
+}
+
+.toReg {
+    background-color: #4CAF50;
+    font: 400 13.3333px Arial;
+    width: 100%;
+    text-align: center;
+    border-radius: 12px;
+}
+
+.toReg a {
+    color: white;
+    display: block;
+    cursor: default;
+}
+
+.login h3 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.login h1,
+.reg h1,
+.profile h1{
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.login input,
+.login a,
+.reg input,
+.add input,
+.add textarea{
+    outline: none;
+}
+
+.login input:focus,
+.login a:focus,
+.reg input:focus,
+.add input:focus,
+.add textarea:focus{
+    border-color: cadetblue;
+}
+
+.login input[type="submit"]:hover,
+.toReg:hover,
+.reg input[type="submit"]:hover{
+    background-color: green;
+}
+
+.login p {
+    text-align: center;
+}
+
+.header {
+    height: 64px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid gray;
+    justify-content: center;
+}
+
+.loginBtn, .registerBtn, .createBtn, .logoutBtn {
+    width: 90px;
+    text-align: center;
+    border-radius: 5px;
+    height: 30px;
+    right: 30px;
+    float: right;
+    border: 1px solid gray;
+    color: gray;
+    padding: 0 13px;
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+    margin-top: 16px;
+}
+
+.loginBtn:hover,
+.createBtn:hover{
+    border-color: cadetblue;
+    color: cadetblue;
+}
+
+.registerBtn:hover,
+.logoutBtn:hover{
+    background-color: lightslategray;
+}
+
+.loginBtn, .createBtn {
+    margin-right: 10px;
+}
+
+.registerBtn, .logoutBtn {
+    margin-right: 20px;
+    background-color: lightskyblue;
+    color: white;
+}
+
+.header h1 {
+    float: right;
+    margin: 13px 10px 0 auto;
+}
+
+.loginInfo a {
+    display: inline;
+}
