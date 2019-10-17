@@ -8,6 +8,8 @@ create table if not exists users
     mail     varchar(255)
 );
 
+insert into users(login, password, mail) values ('admin', '$2y$10$Jo1ASJ86sTJoYkMKKnfnE.tOI.Dzh8wL5kEvGz8CpDqkckXOQga52', 'admin@admin.ua');
+
 create table if not exists posts
 (
     id      serial       not null
